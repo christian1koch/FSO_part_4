@@ -1,0 +1,11 @@
+post http://localhost:3000/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNocmlzIiwiaWQiOiI2MmJjMWI1NDE4OTg3MzMzZTNjNTk3OTgiLCJpYXQiOjE2NTY0OTUyMTV9.qVgdrruRupatrAWcgjIPgdw6WR-mTb-sP67ikUCzdPY
+
+{
+    "title": "About Luisa 2",
+    "author": "Luisa Koch",
+    "url": "www.luisakoch.com",
+    "likes": 1,
+    "userId": "62bc1b5418987333e3c59798"
+}
